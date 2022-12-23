@@ -1,0 +1,20 @@
+{
+    "name": "playwright_template",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "playwright test",
+      "mypage_dev": "playwright test mypage_dev",
+      "mypage_test": "playwright test mypage_test"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@playwright/test": "^1.21.1",
+      "axios": "^0.24.0",
+      "jsdom": "^19.0.0",
+      "whatwg-url": "^11.0.0"
+    }
+}
